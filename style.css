@@ -26,6 +26,7 @@
      grid-template-columns: repeat(2, auto);
      grid-gap: 20px;
      grid-template-rows: repeat(4,20vh);
+     
  }
 
  .item1 {
@@ -37,7 +38,13 @@
 .item2 {
     grid-column: span 2;
     grid-row: span 3;
-    background-image: url(Images/Screen\ Shot\ 2022-09-07\ at\ 9.37.34\ AM.png);
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.item2 img {
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
 .item3 {
@@ -65,8 +72,13 @@
 .item7 {
     grid-column: span 2;
     grid-row: span 30;
-    background-image: url(Images/Screen\ Shot\ 2022-09-07\ at\ 9.50.46\ AM.png);
-    
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.item7 img {
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
 .item8 {
